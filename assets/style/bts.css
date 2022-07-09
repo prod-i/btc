@@ -1,0 +1,211 @@
+/* стили для всех блоков */
+*{
+    /* внутренние отступы */
+    padding: 0;
+    /* внешние отступы */
+    margin: 0;
+    /* надо */
+    box-sizing: border-box;
+}
+/* стили для боди */
+body{
+    /* цвет блока */
+    background-color: rgb(18, 18, 18);
+    /* цвет текста */
+    color: #fff;
+}
+/* стили для тега хедер */
+header{ 
+    /* тип позиционирования: фиксирует (прозрачность) */
+    position: fixed;
+    /* размещение шапки относительно верха страницы */
+    top: 0;
+        /* свойства для определения типа размещения элементов внутри блока */
+    display: flex;
+    /* раснянуть элементы внутри блока по ширине */
+    justify-content: space-between;
+    /* разместить элементы внутри блока вертикально по центру */
+    align-items: center;
+/* ширина */
+    width: 100%;
+    /* высота */
+    height: 64px;
+    /* внутренние отступы: сверху справа снизу слева */
+    padding: 0 20px 0 20px;
+    /* цвет фона блока */
+    background-color: rgba(0, 0, 0, 0.224);
+}
+/* обращаемся к блоку с классом меню */
+
+.lang{
+    /* размер текста */
+    font-size: 24px;
+     /* расстояние между буквами текста */
+    letter-spacing: 3px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 64px 0 0 0;
+}
+p{
+    font-size: 50px;
+    margin: 70px 70px;
+     color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.388);
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 64px 0 0 0px;
+}
+.column{
+    height: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.elem{
+    font-size: 50px;
+    justify-content: center;
+    margin: 70px 0 0 10%;
+}
+.elem-a{
+    font-size: 18px;
+    margin: 50px 15% 0 5%;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;  
+    margin: 30% 0 0 0;   
+    background-color: black;
+    /* максимаотная ширина */
+    max-width: 1024px;
+}
+.column-a{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.h{
+    font-size: 15px;
+    margin: 10% 0 0 6%;
+}
+.elem-rm{
+    width: 100%;
+}
+.elem-rm-img{
+    width: 60%;
+    margin: 0 0 0 103px;  
+}
+.elem-jin{
+    width: 100%;
+}
+.elem-jin-img{
+    width: 60%;
+    margin: 0 0 0 208px;
+} 
+.section-a{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;  
+    margin: 0 0 0 0;   
+    background-color: black;
+    max-width: 1024px;
+}
+.column-b{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.elem-suga{
+    width: 100%;
+}
+.elem-suga-img{
+    width: 75%;
+    margin: 0 0 0 0;    
+}
+.elem-hosok{
+    width: 100%;
+}
+.elem-hosok-img{
+    width: 75%;
+    margin: 0 0 0 50%;  
+}
+.elem-chimin{
+    width: 100%;
+}
+.elem-chimin-img{
+    width: 75%;
+    margin: 0 0 0 25%;
+}
+.section-b{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;  
+    margin: 0 0 0 0;   
+    background-color: black;
+    max-width: 1024px;
+}
+.column-c{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.elem-v{
+    width: 100%;
+}
+.elem-v-img{
+    width: 50%;
+    margin: 0 0 0 50%;
+}
+.elem-jk{
+    width: 100%;
+}
+.elem-jk-img{
+    width: 50%;
+    margin: 0 50% 0 0;  
+}
+footer{
+    /* размещение шапки относительно низа страницы */
+    bottom: 0;
+        /* свойства для определения типа размещения элементов внутри блока */
+    display: flex;
+    /* раснянуть элементы внутри блока по ширине */
+    justify-content: space-between;
+    /* разместить элементы внутри блока вертикально по центру */
+    align-items: center;
+/* ширина */
+    width: 100%;
+    /* высота */
+    height: 60px;
+    /* внутренние отступы: сверху справа снизу слева */
+    padding: 0 20px 0 20px;
+    /* цвет фона блока */
+    background-color: rgb(42, 41, 41);
+}
+.family{
+   font-size: 20px;
+   margin: 0 0 0 10%;
+}
+
+.link {
+    font-size: 20px;
+    margin: 0 0 0 10%;
+}
+.family:hover{
+   color: rgb(146, 146, 146);
+}
+.g{
+   margin: 0 10% 0 0%;
+}
+
+
